@@ -1,0 +1,19 @@
+[tool.poetry]
+package-mode = false
+name = "teleadmin"
+version = "0.1.0.dev0"
+description = "Bot protection, referral program, invite link management, sendings and statistics."
+license = "MIT"
+authors = ["Rasim Eminov <eminov.workspace@yandex.ru>"]
+maintainers = []
+readme = "README.md"
+repository = "https://github.com/l3uraki/Teleadmin/"
+documentation = ""
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
