@@ -1,0 +1,17 @@
+[tool.poetry]
+package-mode = false
+name = "teleadmin"
+version = "0.1.0.dev0"
+description = "A Telegram-bot for improving the quality of channel promotion"
+authors = ["Rasim Eminov <eminov.workspace@yandex.ru>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/l3uraki/Teleadmin/"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
