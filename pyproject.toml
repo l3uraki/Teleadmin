@@ -11,6 +11,9 @@ repository = "https://github.com/l3uraki/Teleadmin/"
 [tool.poetry.dependencies]
 python = "^3.12"
 
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6"
+
 
 [build-system]
 requires = ["poetry-core"]
